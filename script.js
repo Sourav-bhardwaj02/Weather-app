@@ -1,5 +1,4 @@
-const apikey = "63ca6db7ac08eb2ab64c42da41413ee3";
-
+console.log(import.meta.env.VITE_WEATHER_API_KEY);
 window.addEventListener("load", () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition((position) => {
